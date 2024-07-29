@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ck_bluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蓝牙连接"
+                android:textSize="30px" />
+
+            <Button
+                android:id="@+id/ck_vibrate_short"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="短振"
+                android:textSize="30px" />
+
+            <Button
+                android:id="@+id/ck_vibrate_long"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="长振"
+                android:textSize="30px" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
